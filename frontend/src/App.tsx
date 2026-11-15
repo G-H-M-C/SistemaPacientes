@@ -15,7 +15,11 @@ export default function App() {
   return (
     <div className="app">
       <aside className="menu">
-        <h1 className="marca">Sistema de Pacientes</h1>
+        <h1 className="marca">HealthSync</h1>
+        <p className="eslogan">
+          <span className="tono1">Tu salud </span>
+          <span className="tono2">able</span>
+        </p>
         <nav>
           {enlaces.map((e) => (
             <NavLink

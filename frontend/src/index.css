@@ -1,9 +1,9 @@
 :root {
-  --verde: #0f766e;
-  --verde-oscuro: #0b4f4a;
-  --fondo: #f3f6f6;
-  --borde: #d7e0e0;
-  --texto: #1d2b2b;
+  --verde: #6b6bc7;
+  --verde-oscuro: #5555b0;
+  --fondo: #efeeff;
+  --borde: #dcdbf5;
+  --texto: #26244a;
   --rojo: #b42318;
 }
 
@@ -25,16 +25,30 @@ body {
 
 .menu {
   width: 220px;
-  background: var(--verde-oscuro);
+  background: var(--verde);
   color: #fff;
   padding: 24px 16px;
   flex-shrink: 0;
 }
 
 .marca {
-  font-size: 18px;
-  margin: 0 0 24px;
-  line-height: 1.3;
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.eslogan {
+  margin: 4px 0 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.eslogan .tono1 {
+  color: #cfcfff;
+}
+
+.eslogan .tono2 {
+  color: #f5f5ff;
 }
 
 .menu nav {
@@ -44,7 +58,7 @@ body {
 }
 
 .enlace {
-  color: #cfe5e3;
+  color: #e6e6ff;
   text-decoration: none;
   padding: 10px 12px;
   border-radius: 6px;
@@ -55,7 +69,7 @@ body {
 }
 
 .enlace.activo {
-  background: var(--verde);
+  background: rgba(255, 255, 255, 0.25);
   color: #fff;
 }
 
@@ -108,7 +122,7 @@ td {
 }
 
 th {
-  background: #e8efef;
+  background: #e9e8fb;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -145,7 +159,7 @@ th {
 }
 
 .boton.secundario:hover {
-  background: #e8efef;
+  background: #e9e8fb;
 }
 
 .boton.peligro {
@@ -197,7 +211,7 @@ th {
   padding: 2px 8px;
   border-radius: 10px;
   font-size: 13px;
-  background: #e8efef;
+  background: #e9e8fb;
 }
 
 .estado.programada {
